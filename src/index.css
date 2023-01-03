@@ -1,13 +1,90 @@
-body {
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+   
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+
+ h1{
+  
+  text-align: center;
+  background-color: cadetblue;
+}
+
+ p{
+  text-align: center;
+  margin-top: 7px;
+  font-weight: bold;
+  background-color: rgb(149, 218, 220);
+}
+
+ .main{
+  display: flex;
+
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  background-image: linear-gradient(to right,yellow,yellow,green) ;
+}
+
+ .form-container{
+  width: 500px;
+  height: 340px;
+  background-color: #e4e4e4;
+  
+  padding: 40px; 
+  display: flex;
+  justify-content: space-around;  
+  background-image: linear-gradient(to right,orange,white) ;
+ 
+}
+
+ .form-container .btn,.deleteBtn{
+  width: 60%;
+  height:10%;
+  margin:15px;
+ background-image: linear-gradient(to right,rgb(167, 110, 5), red,green,blue) ;
+ color:aliceblue;
+ 
+
+
+}
+
+ .view-container{
+  width: 600px;
+  height: 54.8vh;    
+  background-color: #e4e4e4;
+  margin: 20px auto;
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(to right,orange,green) ;   
+}
+
+/* .delete-btn{
+  color: red;
+  cursor: pointer;
+  width:100px;
+  background-image: linear-gradient(to right,yellow,green) ;   
+} */
+
+tbody{
+  margin-top: 25px;
+}
+.showData,.alldata{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+ 
+
+}
+tr,td{
+  border:1px dotted black;
+  background-color: aqua;
+}
+th{
+  border:4px solid blue
 }
